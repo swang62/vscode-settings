@@ -1,0 +1,260 @@
+{
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#000000",
+    "editor.background": "#000000",
+    "editorWhitespace.foreground": "#2e2e2e"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 14,
+  "editor.linkedEditing": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.defaultProfile.windows": "Cygwin",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.scrollback": 1000000,
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.automationProfile.osx": null,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "ShortcutMenuBar.openFilesList": false,
+  "debug.console.fontSize": 14,
+  "scm.inputFontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "git.enableSmartCommit": true,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.selectionHighlight": true,
+  "editor.bracketPairColorization.enabled": true,
+  "git.confirmSync": false,
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Cygwin": {
+      "path": "C:\\cygwin64\\bin\\bash.exe",
+      "args": ["--login"]
+    }
+  },
+  "json.maxItemsComputed": 50000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoSurround": "quotes",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.menus": {
+    "editor": false,
+    "editorGroup": false,
+    "editorTab": false,
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "gitlens.advanced.fileHistoryShowAllBranches": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": ["entity.name.function"],
+          "settings": {
+            "foreground": "#dbd8aa"
+          }
+        },
+        {
+          "scope": ["variable.parameter", "variable.other", "variable.name"],
+          "settings": {
+            "foreground": "#e6e6e6"
+          }
+        },
+        {
+          "scope": ["variable.other.readwrite", "variable.other.constant"],
+          "settings": {
+            "foreground": "#70a5c9"
+          }
+        }
+      ]
+    }
+  },
+  "ShortcutMenuBar.navigateBack": false,
+  "ShortcutMenuBar.navigateForward": false,
+  "editor.tabSize": 2,
+  "git.mergeEditor": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "selection",
+  "editor.detectIndentation": false,
+  "workbench.sideBar.location": "right",
+  "black-formatter.args": ["--line-length=90"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.ignore": ["*.ipynb"],
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.foldingMaximumRegions": 50000,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "search.exclude": {
+    "**/schema.graphql": true,
+    "**/graphql.schema.json": true,
+    "**/nexus-typegen.ts": true,
+    "**/types.d.ts": true,
+    "**/package-lock.json": true,
+    "**/hooks.ts": true
+  },
+  "notebook.consolidatedRunButton": true,
+  "mypy.dmypyExecutable": "/Users/steve/.pyenv/shims/dmypy",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.virtualRepositories.enabled": false,
+  "gitlens.showWelcomeOnInstall": false,
+  "python.analysis.autoImportCompletions": true,
+  "autoDocstring.docstringFormat": "one-line-sphinx",
+  "autoDocstring.quoteStyle": "'''",
+  "files.associations": {
+    ".gcloudignore": "ignore"
+  },
+  "jupyter.askForKernelRestart": false,
+  "git.openRepositoryInParentFolders": "always",
+  "extensions.ignoreRecommendations": true,
+  "update.showReleaseNotes": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.minimap.enabled": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "git.ignoreMissingGitWarning": true,
+  "editor.accessibilitySupport": "off",
+  "mypy.configFile": "mypy.ini",
+  "mypy.extraArguments": ["--config-file mypy.ini"],
+  "gitlens.currentLine.enabled": false,
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.authors.command": false,
+  "gitlens.codeLens.recentChange.command": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.currentLine.format": "",
+  "window.confirmSaveUntitledWorkspace": false,
+  "vscode-pets.petColor": "gray",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.throwBallWithMouse": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "peacock.affectActivityBar": false,
+  "peacock.darkenLightenPercentage": 10,
+  "peacock.surpriseMeOnStartup": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[github-actions-workflow]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[dart]": {
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "continue.enableTabAutocomplete": true,
+  "continue.showInlineTip": false,
+  "continue.telemetryEnabled": false,
+  "syncSettings.confirmSync": true,
+  "syncSettings.openOutputOnActivity": true
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveFiles"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.switchWindow"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.switchWindow"
+  }
+]
