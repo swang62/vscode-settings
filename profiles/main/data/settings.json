@@ -1,6 +1,6 @@
 {
   "workbench.colorCustomizations": {
-    "sideBar.background": "#000000",
+    "sideBar.background": "#0f0f0f",
     "editor.background": "#000000",
     "editorWhitespace.foreground": "#2e2e2e"
   },
@@ -8,7 +8,6 @@
   "editor.fontSize": 14,
   "editor.linkedEditing": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "terminal.integrated.defaultProfile.windows": "Cygwin",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.scrollback": 1000000,
   "explorer.confirmDelete": false,
@@ -23,7 +22,7 @@
   "git.enableSmartCommit": true,
   "files.eol": "\n",
   "editor.formatOnSave": true,
-  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.codeActionsOnSave.mode": "problems",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
@@ -50,7 +49,7 @@
   },
   "json.maxItemsComputed": 50000,
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingQuotes": "beforeWhitespace",
   "editor.autoSurround": "quotes",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.hovers.currentLine.over": "line",
@@ -87,7 +86,7 @@
       "stash": true
     }
   },
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "gitlens.advanced.fileHistoryShowAllBranches": false,
@@ -136,12 +135,6 @@
   },
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.ignore": ["*.ipynb"],
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": true,
-    "markdown": true
-  },
   "editor.foldingMaximumRegions": 50000,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "search.exclude": {
@@ -250,11 +243,27 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"
   },
-  "prisma.showPrismaDataPlatformNotification": false,
-  "github.copilot.editor.enableAutoCompletions": true,
   "continue.enableTabAutocomplete": true,
   "continue.showInlineTip": false,
   "continue.telemetryEnabled": false,
   "syncSettings.confirmSync": true,
-  "syncSettings.openOutputOnActivity": true
+  "syncSettings.openOutputOnActivity": true,
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "redhat.telemetry.enabled": true,
+  "caddyfile.executable": "C:\\ProgramData\\chocolatey\\bin\\caddy.exe",
+  "[caddyfile]": {
+    "editor.defaultFormatter": "matthewpi.caddyfile-support"
+  },
+  "workbench.colorTheme": "Default Dark Modern",
+  "files.autoSave": "off",
+  "files.autoSaveWorkspaceFilesOnly": true,
+  "ShortcutMenuBar.saveAll": true,
+  "git.autofetch": true,
+  "settingsSync.ignoredSettings": [],
+  "extensions.autoUpdate": false,
+  "update.mode": "manual",
+  "extensions.autoCheckUpdates": false,
+  "remote.downloadExtensionsLocally": true,
+  "syncSettings.additionalFiles": []
 }
