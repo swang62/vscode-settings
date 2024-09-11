@@ -1,12 +1,24 @@
 disabled:
   - id: GitHub.copilot
     uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
+  - id: github.vscode-github-actions
+    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: johnpapa.vscode-peacock
     uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
+  - id: mrmlnc.vscode-json5
+    uuid: d6c6d30c-10a6-42fe-85ec-41dcb313349d
+  - id: mechatroner.rainbow-csv
+    uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
+  - id: Prisma.prisma
+    uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: tonybaloney.vscode-pets
     uuid: 9b1d6ed6-92f2-4fad-863e-18a9d4c22204
+  - id: wholroyd.jinja
+    uuid: c941a679-d500-46a8-b2a9-208063125901
+  - id: vunguyentuan.vscode-postcss
+    uuid: 361b3dd2-9a8c-45d2-9039-1789dec4362e
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -36,8 +48,6 @@ enabled:
     uuid: c5f4d87f-a524-462c-ac01-923eb19cf3e9
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
-  - id: github.vscode-github-actions
-    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GraphQL.vscode-graphql
     uuid: 55ef6448-487b-49a0-a66e-4d2d9bb82229
   - id: GraphQL.vscode-graphql-syntax
@@ -58,12 +68,8 @@ enabled:
     uuid: dc6e4918-e458-4703-a46d-938ec13de5e4
   - id: matthewpi.caddyfile-support
     uuid: c1d1ec36-b62e-4046-b2e6-0e49df95a9f8
-  - id: mechatroner.rainbow-csv
-    uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mikestead.dotenv
     uuid: 532533c9-a894-4a58-9eee-bbfbe7c06f71
-  - id: mrmlnc.vscode-json5
-    uuid: d6c6d30c-10a6-42fe-85ec-41dcb313349d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-python.black-formatter
@@ -94,8 +100,6 @@ enabled:
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
   - id: njqdev.vscode-python-typehint
     uuid: a7b7591e-f2b8-48f7-b8ea-6d62a0dd38c8
-  - id: Prisma.prisma
-    uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: quicktype.quicktype
     uuid: e05d98bf-3735-4c1e-9fae-86ef0a52e19f
   - id: rangav.vscode-thunder-client
@@ -114,12 +118,8 @@ enabled:
     uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
   - id: vscode-icons-team.vscode-icons
     uuid: 9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a
-  - id: vunguyentuan.vscode-postcss
-    uuid: 361b3dd2-9a8c-45d2-9039-1789dec4362e
   - id: wayou.vscode-todo-highlight
     uuid: 97a08c5f-6667-4242-a5c5-045dfb6bd4b9
-  - id: wholroyd.jinja
-    uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: yzhang.markdown-all-in-one
