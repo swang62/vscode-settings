@@ -1,62 +1,208 @@
 {
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#0f0f0f",
-    "editor.background": "#000000",
-    "editorWhitespace.foreground": "#2e2e2e"
-  },
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontSize": 14,
-  "editor.linkedEditing": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.scrollback": 1000000,
-  "explorer.confirmDelete": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.tabs.enabled": true,
-  "terminal.integrated.automationProfile.osx": null,
-  "terminal.integrated.shellIntegration.enabled": true,
+  "ShortcutMenuBar.navigateBack": false,
+  "ShortcutMenuBar.navigateForward": false,
   "ShortcutMenuBar.openFilesList": false,
+  "ShortcutMenuBar.saveAll": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[caddyfile]": {
+    "editor.defaultFormatter": "matthewpi.caddyfile-support"
+  },
+  "[dart]": {
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[github-actions-workflow]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[yaml]": {
+    "editor.autoIndent": "advanced"
+  },
+  "autoDocstring.docstringFormat": "one-line-sphinx",
+  "autoDocstring.quoteStyle": "'''",
+  "black-formatter.args": [
+    "--line-length=90"
+  ],
+  "caddyfile.executable": "C:\\ProgramData\\chocolatey\\bin\\caddy.exe",
+  "continue.enableTabAutocomplete": true,
+  "continue.showInlineTip": false,
+  "continue.telemetryEnabled": false,
+  "database-client.highlightSQLBlock": true,
   "debug.console.fontSize": 14,
-  "scm.inputFontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "git.enableSmartCommit": true,
-  "files.eol": "\n",
-  "editor.formatOnSave": true,
-  "eslint.codeActionsOnSave.mode": "problems",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-  "editor.selectionHighlight": true,
-  "editor.bracketPairColorization.enabled": true,
-  "git.confirmSync": false,
-  "terminal.integrated.profiles.windows": {
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Cygwin": {
-      "path": "C:\\cygwin64\\bin\\bash.exe",
-      "args": ["--login"]
-    }
-  },
-  "json.maxItemsComputed": 50000,
-  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.accessibilitySupport": "off",
   "editor.autoClosingQuotes": "beforeWhitespace",
   "editor.autoSurround": "quotes",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.statusBar.enabled": false,
-  "gitlens.hovers.enabled": false,
-  "gitlens.views.commits.pullRequests.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    // "source.organizeImports": "always",
+    // "source.sortImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.foldingMaximumRegions": 50000,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.selectionHighlight": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.name.function"
+          ],
+          "settings": {
+            "foreground": "#dbd8aa"
+          }
+        },
+        {
+          "scope": [
+            "variable.parameter",
+            "variable.other",
+            "variable.name"
+          ],
+          "settings": {
+            "foreground": "#e6e6e6"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.readwrite",
+            "variable.other.constant"
+          ],
+          "settings": {
+            "foreground": "#70a5c9"
+          }
+        }
+      ]
+    }
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ],
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-order",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off",
+      "fixable": true
+    },
+    {
+      "rule": "*semi",
+      "severity": "off",
+      "fixable": true
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    ".gcloudignore": "ignore"
+  },
+  "files.autoSave": "off",
+  "files.autoSaveWorkspaceFilesOnly": true,
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.mergeEditor": false,
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.advanced.fileHistoryShowAllBranches": false,
   "gitlens.blame.highlight.enabled": false,
+  "gitlens.codeLens.authors.command": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.command": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.currentLine.format": "",
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
   "gitlens.menus": {
     "editor": false,
     "editorGroup": false,
@@ -70,12 +216,12 @@
     "scm": {
       "authors": true
     },
-    "scmGroupInline": {
-      "stash": true
-    },
     "scmGroup": {
       "compare": true,
       "openClose": true,
+      "stash": true
+    },
+    "scmGroupInline": {
       "stash": true
     },
     "scmItem": {
@@ -86,102 +232,25 @@
       "stash": true
     }
   },
-  "diffEditor.ignoreTrimWhitespace": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "gitlens.advanced.fileHistoryShowAllBranches": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.tokenColorCustomizations": {
-    "[Default Dark+]": {
-      "textMateRules": [
-        {
-          "scope": ["entity.name.function"],
-          "settings": {
-            "foreground": "#dbd8aa"
-          }
-        },
-        {
-          "scope": ["variable.parameter", "variable.other", "variable.name"],
-          "settings": {
-            "foreground": "#e6e6e6"
-          }
-        },
-        {
-          "scope": ["variable.other.readwrite", "variable.other.constant"],
-          "settings": {
-            "foreground": "#70a5c9"
-          }
-        }
-      ]
-    }
-  },
-  "ShortcutMenuBar.navigateBack": false,
-  "ShortcutMenuBar.navigateForward": false,
-  "editor.tabSize": 2,
-  "git.mergeEditor": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.renderWhitespace": "selection",
-  "editor.detectIndentation": false,
-  "workbench.sideBar.location": "right",
-  "black-formatter.args": ["--line-length=90"],
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
-    }
-  },
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.ignore": ["*.ipynb"],
-  "editor.foldingMaximumRegions": 50000,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "search.exclude": {
-    "**/schema.graphql": true,
-    "**/graphql.schema.json": true,
-    "**/nexus-typegen.ts": true,
-    "**/types.d.ts": true,
-    "**/package-lock.json": true,
-    "**/hooks.ts": true
-  },
-  "notebook.consolidatedRunButton": true,
-  "mypy.dmypyExecutable": "/Users/steve/.pyenv/shims/dmypy",
-  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-  "gitlens.plusFeatures.enabled": false,
-  "gitlens.showWhatsNewAfterUpgrades": false,
-  "gitlens.virtualRepositories.enabled": false,
-  "gitlens.showWelcomeOnInstall": false,
-  "python.analysis.autoImportCompletions": true,
-  "autoDocstring.docstringFormat": "one-line-sphinx",
-  "autoDocstring.quoteStyle": "'''",
-  "files.associations": {
-    ".gcloudignore": "ignore"
-  },
-  "jupyter.askForKernelRestart": false,
-  "git.openRepositoryInParentFolders": "always",
-  "extensions.ignoreRecommendations": true,
-  "update.showReleaseNotes": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.minimap.enabled": false,
-  "gitlens.views.commitDetails.files.layout": "tree",
-  "git.ignoreMissingGitWarning": true,
-  "editor.accessibilitySupport": "off",
-  "mypy.configFile": "mypy.ini",
-  "mypy.extraArguments": ["--config-file mypy.ini"],
-  "gitlens.currentLine.enabled": false,
-  "gitlens.currentLine.scrollable": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.authors.command": false,
-  "gitlens.codeLens.recentChange.command": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
-  "gitlens.currentLine.format": "",
-  "window.confirmSaveUntitledWorkspace": false,
-  "vscode-pets.petColor": "gray",
-  "vscode-pets.petSize": "small",
-  "vscode-pets.throwBallWithMouse": true,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "gitlens.virtualRepositories.enabled": false,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.includeCompletionsForImportStatements": true,
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "dist"
+  ],
+  "json.maxItemsComputed": 50000,
+  "jupyter.askForKernelRestart": false,
+  "peacock.affectActivityBar": false,
+  "peacock.darkenLightenPercentage": 10,
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -220,50 +289,193 @@
       "value": "#42b883"
     }
   ],
-  "peacock.affectActivityBar": false,
-  "peacock.darkenLightenPercentage": 10,
   "peacock.surpriseMeOnStartup": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.ignore": [
+    "*.ipynb"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "redhat.telemetry.enabled": true,
+  "remote.downloadExtensionsLocally": true,
+  "scm.inputFontSize": 14,
+  "search.exclude": {
+    "**/dist/**/*": true,
+    "**/graphql.schema.json": true,
+    "**/hooks.ts": true,
+    "**/nexus-typegen.ts": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/schema.graphql": true,
+    "**/types.d.ts": true,
+    "node_modules": true
   },
-  "[yaml]": {
-    "editor.autoIndent": "advanced"
+  "security.workspace.trust.untrustedFiles": "open",
+  "settingsSync.ignoredSettings": [],
+  "sort-imports.default-sort-style": "module-scoped",
+  "sortJSON.contextMenu": {
+    "sortJSON": true,
+    "sortJSONAlphaNum": false,
+    "sortJSONAlphaNumReverse": false,
+    "sortJSONKeyLength": false,
+    "sortJSONKeyLengthReverse": false,
+    "sortJSONReverse": false,
+    "sortJSONType": false,
+    "sortJSONTypeReverse": false,
+    "sortJSONValues": false,
+    "sortJSONValuesReverse": false
   },
-  "[dockercompose]": {
-    "editor.autoIndent": "advanced"
-  },
-  "[github-actions-workflow]": {
-    "editor.autoIndent": "advanced"
-  },
-  "[dart]": {
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "continue.enableTabAutocomplete": true,
-  "continue.showInlineTip": false,
-  "continue.telemetryEnabled": false,
   "syncSettings.confirmSync": true,
   "syncSettings.openOutputOnActivity": true,
+  "terminal.integrated.automationProfile.osx": null,
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cwd": "${workspaceFolder}",
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "redhat.telemetry.enabled": true,
-  "caddyfile.executable": "C:\\ProgramData\\chocolatey\\bin\\caddy.exe",
-  "[caddyfile]": {
-    "editor.defaultFormatter": "matthewpi.caddyfile-support"
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "args": [],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Cygwin": {
+      "args": [
+        "--login"
+      ],
+      "path": "C:\\cygwin64\\bin\\bash.exe"
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    }
+  },
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.tabs.enabled": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "default",
+  "update.showReleaseNotes": false,
+  "vscode-pets.petColor": "gray",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode_custom_css.imports": [
+    "file:///Users/steve/Google Drive/Mac/pretty-ts-errors-hack.css"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.confirmSaveUntitledWorkspace": false,
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "editorWhitespace.foreground": "#2e2e2e",
+    "sideBar.background": "#0f0f0f"
   },
   "workbench.colorTheme": "Default Dark Modern",
-  "files.autoSave": "off",
-  "files.autoSaveWorkspaceFilesOnly": true,
-  "ShortcutMenuBar.saveAll": true,
-  "git.autofetch": true,
-  "settingsSync.ignoredSettings": [],
-  "extensions.autoUpdate": false,
-  "update.mode": "manual",
-  "extensions.autoCheckUpdates": false,
-  "remote.downloadExtensionsLocally": true,
-  "syncSettings.additionalFiles": []
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "html.format.wrapLineLength": 0,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.customLabels.patterns": {
+    "**/index.*": "${dirname}/${filename}.${extname}"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "database-client.reloadAfterDML": true,
+  "database-client.autoSync": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "evenBetterToml.formatter.trailingNewline": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "notebook.consolidatedRunButton": true,
+  "notebook.insertFinalNewline": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "thunder-client.jsonFileIndentSize": 2,
+  "thunder-client.requestTimeout": 5000,
+  "thunder-client.restoreTabs": true,
+  "reactSnippets.settings.importReactOnTop": false,
+  "prettify-ts.maxCharacters": 2000,
+  "prettify-ts.maxProperties": 20,
+  "prettify-ts.maxUnionMembers": 3,
+  "tailwind-fold.showTailwindImage": false,
+  "tailwind-fold.autoFold": false,
+  "tailwind-fold.foldedText": "",
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "Style \\=([^;]*);",
+      "'([^']*)'"
+    ],
+    [
+      "Style \\=([^;]*);",
+      "\"([^\"]*)\""
+    ],
+    [
+      "Style \\=([^;]*);",
+      "\\`([^\\`]*)\\`"
+    ]
+  ],
+  "continue.pauseTabAutocompleteOnBattery": true,
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "package.json",
+    "*config*",
+    "*env*"
+  ],
+  "cSpell.noConfigSearch": true,
+  "cSpell.spellCheckOnlyWorkspaceFiles": true,
+  "prettify-ts.typeIndentation": 2,
+  "prettify-ts.unwrapFunctions": false,
+  "prettify-ts.unwrapPromises": false,
+  "prettify-ts.unwrapArrays": false,
+  "database-client.disableSqlCodeLenNew": true,
+  "database-client.executeCursorSQLByShortcut": false,
+  "database-client.telemetry.usesOnlineServices": false,
+  "cSpell.enableFiletypes": [
+    "astro"
+  ],
+  "cSpell.ignoreWords": [
+    "clsx",
+    "ethernets"
+  ],
+  "cSpell.enabledFileTypes": {
+    "dockercompose": false,
+    "toml": false
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "mypy.checkNotebooks": true
 }

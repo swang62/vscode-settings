@@ -14,5 +14,40 @@
   {
     "key": "ctrl+w",
     "command": "-workbench.action.switchWindow"
+  },
+  {
+    "key": "cmd+i",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "cmd+o",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "ctrl+cmd+z",
+    "command": "tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "continue.toggleTabAutocompleteEnabled",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+k cmd+a",
+    "command": "-continue.toggleTabAutocompleteEnabled",
+    "when": "!terminalFocus"
   }
 ]
